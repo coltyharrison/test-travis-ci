@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "app_function": "app.app",
+        "profile_name": "default",
+        "project_name": "ci-test",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-z8r8o2l2b",
+        "aws_region": "us-west-2",
+        "environment_variables": {
+          "FLASK_ENV": "production",
+          "FLASK_APP": "xeffect"
+        }
+    }
+}
