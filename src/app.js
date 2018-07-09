@@ -14,7 +14,7 @@ store.subscribe(() => {
   const state = store.getState();
   console.log(state);
 });
-
+console.log('test1');
 // each dispatch updates the store, in this case we are adding habits using my actions/habits function.
 // You can repeat this with different data to map more habits
 store.dispatch(
