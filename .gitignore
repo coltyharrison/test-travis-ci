@@ -1,1 +1,14 @@
+node_modules
+yarn-error.log
+xeffect/config.py
+handler_venv
 __pycache__
+static/bundle.*
+static/styles.min.css
+*.pyc
+
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode
+config.py

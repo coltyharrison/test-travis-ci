@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Boilerplate React Client</title>
+	{% if environment == 'production' %}
+	<link rel='stylesheet' href="{{ url_for('static', filename='styles.min.css') }}">
+	{% endif %}
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}">
+</head>
+
+<body>
+	<div id="app"></div>
+	{% if environment == 'production' %}
+	<script src="{{ url_for('static', filename='bundle.min.js') }}"></script>
+	{% else %}
+	<script src="{{ url_for('static', filename='bundle.js') }}"></script>
+	{% endif %}
+</body>
+
+</html>

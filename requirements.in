@@ -1,0 +1,10 @@
+arrow
+mongoengine
+zappa
+flask
+flask_cli
+PyJWT
+pip-tools
+awscli
+boto3
+dnspython
